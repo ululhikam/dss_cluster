@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Artefak yang dihasilkan ulang oleh pipeline
+data/cache/
+data/lexicon/
+data/processed/
+data/stopwords.json
+results/figures/
+results/tables/
+
+# Dataset mentah bersifat lokal
+data/raw/*.xlsx
+
+# OS
+Thumbs.db
+.DS_Store
